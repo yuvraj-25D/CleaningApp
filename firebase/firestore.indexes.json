@@ -1,0 +1,18 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "monthlyreport",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "floor",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "date",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}
